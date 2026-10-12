@@ -875,6 +875,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-self: start;
+    max-width: 100%;
   }
 
   .beta.mid {

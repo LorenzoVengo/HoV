@@ -131,16 +131,18 @@ a {
   margin-right: 0rem;
 }
 
-/* current page link color */
+/* current page link color 
 
-.links.left.original ul li:nth-child(2) a {
+(this page is not on the top bar links so dont need this section)
+
+.links.left.original ul li:last-child a {
   color: var(--midBlue);
 }
-.links.left.original ul li:nth-child(2) a:hover {
+.links.left.original ul li:last-child a:hover {
   color: var(--lightBlue);
 }
 
-/* current page link color */
+ current page link color */
 
 .links.right {
   grid-column: 2;
@@ -844,6 +846,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-self: start;
+    max-width: 100%;
   }
 
   .beta.mid {
